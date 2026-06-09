@@ -162,3 +162,5 @@ cython_debug/
 data/
 
 ckpts/
+
+notebooks/dataset_exploration.ipynb
