@@ -1,0 +1,66 @@
+[
+  {
+    "pattern": "severe",
+    "descriptors": [
+      {
+        "tem": "Severe",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "atrial",
+    "descriptors": [
+      {
+        "tem": "Atrial",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "possible",
+    "descriptors": [
+      {
+        "tem": "Possible",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "probably",
+    "descriptors": [
+      {
+        "tem": "Probable",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "multiple",
+    "descriptors": [
+      {
+        "tem": "Multiple",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "atrioventricular",
+    "descriptors": [
+      {
+        "tem": "Atrial",
+        "descriptors": []
+      },
+      {
+        "tem": "Ventricular",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  }
+]

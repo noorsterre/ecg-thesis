@@ -1,0 +1,20 @@
+[
+  {
+    "pattern": "tachycardia",
+    "entities": [
+      {
+        "tem": "Tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ectopic beat",
+    "entities": [
+      {
+        "tem": "Ectopic beat",
+        "descriptors": []
+      }
+    ]
+  }
+]

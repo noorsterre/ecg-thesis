@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Sinus rhythm",
+    "require_descriptors": false
+  },
+  {
+    "name": "Arrhythmia",
+    "require_descriptors": false
+  },
+  {
+    "name": "Tachycardia",
+    "sup": [
+      "Arrhythmia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Sinus tachycardia",
+    "sup": [
+      "Sinus rhythm",
+      "Tachycardia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic beat",
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic ventricular contraction",
+    "sup": [
+      "Ectopic beat"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Bifascicular block",
+    "require_descriptors": false
+  },
+  {
+    "name": "Right bundle branch block",
+    "require_descriptors": false
+  },
+  {
+    "name": "Fascicular block",
+    "require_descriptors": false
+  }
+]

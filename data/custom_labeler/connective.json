@@ -1,0 +1,21 @@
+[
+  {
+    "pattern": "and",
+    "descriptors": [
+      [],
+      []
+    ]
+  },
+  {
+    "pattern": "suggests",
+    "descriptors": [
+      [],
+      [
+        "Probable"
+      ]
+    ],
+    "tags": [
+      "causal"
+    ]
+  }
+]

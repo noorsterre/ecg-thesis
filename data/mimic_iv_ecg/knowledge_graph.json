@@ -1,0 +1,2693 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Normal electrocardiogram"
+    },
+    {
+      "id": "Electrocardiogram"
+    },
+    {
+      "id": "Abnormal electrocardiogram"
+    },
+    {
+      "id": "Borderline electrocardiogram"
+    },
+    {
+      "id": "Normal electrocardiogram except for rate"
+    },
+    {
+      "id": "Low heart rate"
+    },
+    {
+      "id": "Heart rate"
+    },
+    {
+      "id": "High heart rate"
+    },
+    {
+      "id": "Poor data quality"
+    },
+    {
+      "id": "Difficulty interpreting"
+    },
+    {
+      "id": "Cannot adequately assess"
+    },
+    {
+      "id": "Artifact"
+    },
+    {
+      "id": "Lead misplacement"
+    },
+    {
+      "id": "Lead unsuitable for analysis"
+    },
+    {
+      "id": "Lead reversal"
+    },
+    {
+      "id": "Limb lead reversal"
+    },
+    {
+      "id": "Arm lead reversal"
+    },
+    {
+      "id": "Missing leads/data"
+    },
+    {
+      "id": "Lead not used for morphology analysis"
+    },
+    {
+      "id": "Missing lead"
+    },
+    {
+      "id": "Partial missing lead"
+    },
+    {
+      "id": "Artifact in lead"
+    },
+    {
+      "id": "Baseline wander in lead"
+    },
+    {
+      "id": "Lead sequence error"
+    },
+    {
+      "id": "Lead I unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead I"
+    },
+    {
+      "id": "Partial missing lead I"
+    },
+    {
+      "id": "Artifact in lead I"
+    },
+    {
+      "id": "Baseline wander in lead I"
+    },
+    {
+      "id": "Lead I not used for morphology analysis"
+    },
+    {
+      "id": "Lead II unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead II"
+    },
+    {
+      "id": "Partial missing lead II"
+    },
+    {
+      "id": "Artifact in lead II"
+    },
+    {
+      "id": "Baseline wander in lead II"
+    },
+    {
+      "id": "Lead II not used for morphology analysis"
+    },
+    {
+      "id": "Lead III unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead III"
+    },
+    {
+      "id": "Artifact in lead III"
+    },
+    {
+      "id": "Baseline wander in lead III"
+    },
+    {
+      "id": "Lead III not used for morphology analysis"
+    },
+    {
+      "id": "Lead AVL unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead AVL"
+    },
+    {
+      "id": "Artifact in lead AVL"
+    },
+    {
+      "id": "Baseline wander in lead AVL"
+    },
+    {
+      "id": "Lead AVL not used for morphology analysis"
+    },
+    {
+      "id": "Lead AVR unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead AVR"
+    },
+    {
+      "id": "Partial missing lead AVR"
+    },
+    {
+      "id": "Artifact in lead AVR"
+    },
+    {
+      "id": "Baseline wander in lead AVR"
+    },
+    {
+      "id": "Lead AVR not used for morphology analysis"
+    },
+    {
+      "id": "Lead AVF unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead AVF"
+    },
+    {
+      "id": "Artifact in lead AVF"
+    },
+    {
+      "id": "Baseline wander in lead AVF"
+    },
+    {
+      "id": "Lead AVF not used for morphology analysis"
+    },
+    {
+      "id": "Lead V1 unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead V1"
+    },
+    {
+      "id": "Partial missing lead V1"
+    },
+    {
+      "id": "Artifact in lead V1"
+    },
+    {
+      "id": "Baseline wander in lead V1"
+    },
+    {
+      "id": "Lead V1 not used for morphology analysis"
+    },
+    {
+      "id": "Lead V2 unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead V2"
+    },
+    {
+      "id": "Partial missing lead V2"
+    },
+    {
+      "id": "Artifact in lead V2"
+    },
+    {
+      "id": "Baseline wander in lead V2"
+    },
+    {
+      "id": "Lead V2 omitted due to sequence error"
+    },
+    {
+      "id": "Lead V3 unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead V3"
+    },
+    {
+      "id": "Partial missing lead V3"
+    },
+    {
+      "id": "Artifact in lead V3"
+    },
+    {
+      "id": "Baseline wander in lead V3"
+    },
+    {
+      "id": "Lead V3 omitted due to sequence error"
+    },
+    {
+      "id": "Lead V4 unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead V4"
+    },
+    {
+      "id": "Partial missing lead V4"
+    },
+    {
+      "id": "Artifact in lead V4"
+    },
+    {
+      "id": "Baseline wander in lead V4"
+    },
+    {
+      "id": "Lead V4 not used for morphology analysis"
+    },
+    {
+      "id": "Lead V4 omitted due to sequence error"
+    },
+    {
+      "id": "Lead V5 unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead V5"
+    },
+    {
+      "id": "Partial missing lead V5"
+    },
+    {
+      "id": "Artifact in lead V5"
+    },
+    {
+      "id": "Baseline wander in lead V5"
+    },
+    {
+      "id": "Lead V5 not used for morphology analysis"
+    },
+    {
+      "id": "Lead V5 omitted due to sequence error"
+    },
+    {
+      "id": "Lead V6 unsuitable for analysis"
+    },
+    {
+      "id": "Missing lead V6"
+    },
+    {
+      "id": "Partial missing lead V6"
+    },
+    {
+      "id": "Artifact in lead V6"
+    },
+    {
+      "id": "Baseline wander in lead V6"
+    },
+    {
+      "id": "Lead V6 not used for morphology analysis"
+    },
+    {
+      "id": "Left atrial abnormality"
+    },
+    {
+      "id": "Right atrial abnormality"
+    },
+    {
+      "id": "Biatrial abnormality"
+    },
+    {
+      "id": "T wave"
+    },
+    {
+      "id": "Wave"
+    },
+    {
+      "id": "T wave abnormality"
+    },
+    {
+      "id": "Nonspecific T wave abnormality"
+    },
+    {
+      "id": "T wave inversion"
+    },
+    {
+      "id": "Tall T wave"
+    },
+    {
+      "id": "ST wave"
+    },
+    {
+      "id": "ST wave abnormality"
+    },
+    {
+      "id": "Nonspecific ST wave abnormality"
+    },
+    {
+      "id": "ST depression"
+    },
+    {
+      "id": "Reciprocal ST depression"
+    },
+    {
+      "id": "ST elevation"
+    },
+    {
+      "id": "ST-T wave abnormality"
+    },
+    {
+      "id": "Nonspecific ST-T wave abnormality"
+    },
+    {
+      "id": "Digitalis effect"
+    },
+    {
+      "id": "J wave"
+    },
+    {
+      "id": "J point"
+    },
+    {
+      "id": "J wave syndrome"
+    },
+    {
+      "id": "R wave"
+    },
+    {
+      "id": "R wave abnormality"
+    },
+    {
+      "id": "Abnormal R wave progression"
+    },
+    {
+      "id": "Poor R wave progression"
+    },
+    {
+      "id": "Early R wave transition"
+    },
+    {
+      "id": "Late R wave transition"
+    },
+    {
+      "id": "Tall R wave"
+    },
+    {
+      "id": "P wave"
+    },
+    {
+      "id": "Nonconducted P wave"
+    },
+    {
+      "id": "Missing QRS complexes"
+    },
+    {
+      "id": "Tall inferior P wave"
+    },
+    {
+      "id": "U wave"
+    },
+    {
+      "id": "Q wave"
+    },
+    {
+      "id": "S wave"
+    },
+    {
+      "id": "Delta wave"
+    },
+    {
+      "id": "QRS changes"
+    },
+    {
+      "id": "QRS complex"
+    },
+    {
+      "id": "Wide QRS complex"
+    },
+    {
+      "id": "Narrow QRS complex"
+    },
+    {
+      "id": "Indeterminate axis"
+    },
+    {
+      "id": "QRS axis"
+    },
+    {
+      "id": "QRS axis deviation"
+    },
+    {
+      "id": "Right axis deviation"
+    },
+    {
+      "id": "Left axis deviation"
+    },
+    {
+      "id": "Extreme axis deviation"
+    },
+    {
+      "id": "QT interval"
+    },
+    {
+      "id": "Interval"
+    },
+    {
+      "id": "Prolonged QT interval"
+    },
+    {
+      "id": "Short QT interval"
+    },
+    {
+      "id": "Borderline QT interval"
+    },
+    {
+      "id": "PR interval"
+    },
+    {
+      "id": "Prolonged PR interval"
+    },
+    {
+      "id": "Short PR interval"
+    },
+    {
+      "id": "Progressive PR prolongation"
+    },
+    {
+      "id": "RSR' pattern"
+    },
+    {
+      "id": "Sinus rhythm"
+    },
+    {
+      "id": "Rhythm"
+    },
+    {
+      "id": "Sinus arrhythmia"
+    },
+    {
+      "id": "Arrhythmia"
+    },
+    {
+      "id": "Undetermined rhythm"
+    },
+    {
+      "id": "Undetermined irregularity"
+    },
+    {
+      "id": "Irregular rate"
+    },
+    {
+      "id": "Ventricular rhythm"
+    },
+    {
+      "id": "Supraventricular rhythm"
+    },
+    {
+      "id": "Atrial rhythm"
+    },
+    {
+      "id": "Junctional rhythm"
+    },
+    {
+      "id": "Ectopic contraction"
+    },
+    {
+      "id": "Ectopy"
+    },
+    {
+      "id": "Ectopic rhythm"
+    },
+    {
+      "id": "Ectopic ventricular contraction"
+    },
+    {
+      "id": "Ectopic supraventricular contraction"
+    },
+    {
+      "id": "Ectopic supraventricular rhythm"
+    },
+    {
+      "id": "Ectopic atrial contraction"
+    },
+    {
+      "id": "Ectopic atrial rhythm"
+    },
+    {
+      "id": "Wandering atrial pacemaker"
+    },
+    {
+      "id": "Premature contraction"
+    },
+    {
+      "id": "Premature ventricular contraction"
+    },
+    {
+      "id": "Premature supraventricular contraction"
+    },
+    {
+      "id": "Premature atrial contraction"
+    },
+    {
+      "id": "Escape contraction"
+    },
+    {
+      "id": "Ventricular escape contraction"
+    },
+    {
+      "id": "Bigeminy"
+    },
+    {
+      "id": "Trigeminy"
+    },
+    {
+      "id": "Idioventricular rhythm"
+    },
+    {
+      "id": "Bradycardia"
+    },
+    {
+      "id": "Accelerated idioventricular rhythm"
+    },
+    {
+      "id": "Tachycardia"
+    },
+    {
+      "id": "Sinus tachycardia"
+    },
+    {
+      "id": "Reentry tachycardia"
+    },
+    {
+      "id": "Reentry"
+    },
+    {
+      "id": "Wide complex tachycardia"
+    },
+    {
+      "id": "Narrow complex tachycardia"
+    },
+    {
+      "id": "Ventricular tachycardia"
+    },
+    {
+      "id": "Supraventricular tachycardia"
+    },
+    {
+      "id": "Supraventricular tachycardia with aberrancy"
+    },
+    {
+      "id": "Aberrant ventricular conduction"
+    },
+    {
+      "id": "Paroxysmal supraventricular tachycardia"
+    },
+    {
+      "id": "Atrial tachycardia"
+    },
+    {
+      "id": "Ectopic atrial tachycardia"
+    },
+    {
+      "id": "Paroxysmal atrial tachycardia"
+    },
+    {
+      "id": "Atrial fibrillation"
+    },
+    {
+      "id": "Macro-reentry atrial tachycardia"
+    },
+    {
+      "id": "Atrial flutter"
+    },
+    {
+      "id": "Junctional tachycardia"
+    },
+    {
+      "id": "Accelerated junctional rhythm"
+    },
+    {
+      "id": "Sinus bradycardia"
+    },
+    {
+      "id": "Junctional bradycardia"
+    },
+    {
+      "id": "Atrial bradycardia"
+    },
+    {
+      "id": "Ectopic atrial bradycardia"
+    },
+    {
+      "id": "Conduction defect"
+    },
+    {
+      "id": "Conduction"
+    },
+    {
+      "id": "Intraventricular conduction defect"
+    },
+    {
+      "id": "Bundle branch block aberrancy"
+    },
+    {
+      "id": "Right bundle branch block aberrancy"
+    },
+    {
+      "id": "Left bundle branch block aberrancy"
+    },
+    {
+      "id": "Accessory pathway conduction"
+    },
+    {
+      "id": "Preexcitation syndrome"
+    },
+    {
+      "id": "Wolff-Parkinson-White syndrome"
+    },
+    {
+      "id": "Wolff-Parkinson-White type A"
+    },
+    {
+      "id": "Wolff-Parkinson-White type B"
+    },
+    {
+      "id": "Conduction delay"
+    },
+    {
+      "id": "Ventricular conduction delay"
+    },
+    {
+      "id": "Intraventricular conduction delay"
+    },
+    {
+      "id": "Nonspecific intraventricular conduction delay"
+    },
+    {
+      "id": "Right ventricular conduction delay"
+    },
+    {
+      "id": "Right bundle branch conduction delay"
+    },
+    {
+      "id": "Atrioventricular conduction delay"
+    },
+    {
+      "id": "Conduction block"
+    },
+    {
+      "id": "Atrioventricular block"
+    },
+    {
+      "id": "Incomplete atrioventricular block"
+    },
+    {
+      "id": "1st degree atrioventricular block"
+    },
+    {
+      "id": "2nd degree atrioventricular block"
+    },
+    {
+      "id": "Variable atrioventricular block"
+    },
+    {
+      "id": "High grade atrioventricular block"
+    },
+    {
+      "id": "Slow ventricular response"
+    },
+    {
+      "id": "2:1 conduction ratio"
+    },
+    {
+      "id": "3:1 conduction ratio"
+    },
+    {
+      "id": "4:1 conduction ratio"
+    },
+    {
+      "id": "Atrioventricular Mobitz type 1 block"
+    },
+    {
+      "id": "Atrioventricular Mobitz type 2 block"
+    },
+    {
+      "id": "3rd degree atrioventricular block"
+    },
+    {
+      "id": "Atrioventricular dissociation"
+    },
+    {
+      "id": "Intraventricular block"
+    },
+    {
+      "id": "Fascicular block"
+    },
+    {
+      "id": "Left anterior fascicular block"
+    },
+    {
+      "id": "Left posterior fascicular block"
+    },
+    {
+      "id": "Bifascicular block"
+    },
+    {
+      "id": "Right bundle branch block"
+    },
+    {
+      "id": "Bundle branch block"
+    },
+    {
+      "id": "Incomplete bundle branch block"
+    },
+    {
+      "id": "Incomplete right bundle branch block"
+    },
+    {
+      "id": "Left bundle branch block"
+    },
+    {
+      "id": "Incomplete left bundle branch block"
+    },
+    {
+      "id": "Sinus node dysfunction"
+    },
+    {
+      "id": "Sinus block"
+    },
+    {
+      "id": "Sinus pause"
+    },
+    {
+      "id": "Ventricular hypertrophy"
+    },
+    {
+      "id": "Hypertrophy"
+    },
+    {
+      "id": "Left ventricular hypertrophy"
+    },
+    {
+      "id": "Right ventricular hypertrophy"
+    },
+    {
+      "id": "Biventricular hypertrophy"
+    },
+    {
+      "id": "Inferior ischemia"
+    },
+    {
+      "id": "Ischemia"
+    },
+    {
+      "id": "Lateral ischemia"
+    },
+    {
+      "id": "Anterior ischemia"
+    },
+    {
+      "id": "Septal ischemia"
+    },
+    {
+      "id": "Injury"
+    },
+    {
+      "id": "Inferior injury"
+    },
+    {
+      "id": "Lateral injury"
+    },
+    {
+      "id": "Anterior injury"
+    },
+    {
+      "id": "Septal injury"
+    },
+    {
+      "id": "Infarction"
+    },
+    {
+      "id": "Infarction extension"
+    },
+    {
+      "id": "Infarction, acute"
+    },
+    {
+      "id": "Acute coronary syndrome"
+    },
+    {
+      "id": "STEMI"
+    },
+    {
+      "id": "Inferior infarction"
+    },
+    {
+      "id": "Lateral infarction"
+    },
+    {
+      "id": "Anterior infarction"
+    },
+    {
+      "id": "Septal infarction"
+    },
+    {
+      "id": "Posterior extension"
+    },
+    {
+      "id": "Early repolarization syndrome"
+    },
+    {
+      "id": "Cardiac channelopathy"
+    },
+    {
+      "id": "Repolarization abnormality"
+    },
+    {
+      "id": "Suggest assess electrolytes"
+    },
+    {
+      "id": "Needs clinical correlation"
+    },
+    {
+      "id": "Hyperkalemia"
+    },
+    {
+      "id": "Hypercalcemia"
+    },
+    {
+      "id": "Hypocalcemia"
+    },
+    {
+      "id": "Cerebrovascular accident"
+    },
+    {
+      "id": "Intracranial pathology"
+    },
+    {
+      "id": "Electronic pacemaker artifact"
+    },
+    {
+      "id": "Electronic pacemaker"
+    },
+    {
+      "id": "Electronic pacemaker spike"
+    },
+    {
+      "id": "Fusion complex"
+    },
+    {
+      "id": "Pacing"
+    },
+    {
+      "id": "Demand pacing"
+    },
+    {
+      "id": "Ventricular pacing"
+    },
+    {
+      "id": "Atrial pacing"
+    },
+    {
+      "id": "Dual-chamber pacing"
+    },
+    {
+      "id": "Atrioventricular sequential pacing"
+    },
+    {
+      "id": "Sensing"
+    },
+    {
+      "id": "Atrial sensing"
+    },
+    {
+      "id": "Electronic pacemaker malfunction"
+    },
+    {
+      "id": "Ineffective stimuli"
+    },
+    {
+      "id": "Loss of sensing"
+    },
+    {
+      "id": "Loss of capture"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "is-a",
+      "source": "Normal electrocardiogram",
+      "target": "Electrocardiogram"
+    },
+    {
+      "relation": "is-a",
+      "source": "Abnormal electrocardiogram",
+      "target": "Electrocardiogram"
+    },
+    {
+      "relation": "is-a",
+      "source": "Borderline electrocardiogram",
+      "target": "Electrocardiogram"
+    },
+    {
+      "relation": "is-a",
+      "source": "Normal electrocardiogram except for rate",
+      "target": "Electrocardiogram"
+    },
+    {
+      "relation": "is-a",
+      "source": "Low heart rate",
+      "target": "Heart rate"
+    },
+    {
+      "relation": "is-a",
+      "source": "High heart rate",
+      "target": "Heart rate"
+    },
+    {
+      "relation": "is-a",
+      "source": "Poor data quality",
+      "target": "Difficulty interpreting"
+    },
+    {
+      "relation": "is-a",
+      "source": "Cannot adequately assess",
+      "target": "Poor data quality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact",
+      "target": "Poor data quality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead misplacement",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead unsuitable for analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead reversal",
+      "target": "Lead misplacement"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead reversal",
+      "target": "Cannot adequately assess"
+    },
+    {
+      "relation": "is-a",
+      "source": "Limb lead reversal",
+      "target": "Lead reversal"
+    },
+    {
+      "relation": "is-a",
+      "source": "Arm lead reversal",
+      "target": "Limb lead reversal"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing leads/data",
+      "target": "Poor data quality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing leads/data",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead not used for morphology analysis",
+      "target": "Poor data quality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead",
+      "target": "Missing leads/data"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead",
+      "target": "Missing leads/data"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead",
+      "target": "Artifact"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead sequence error",
+      "target": "Lead misplacement"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead I unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead I",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead I",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead I",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead I",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead I not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead II unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead II",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead II",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead II",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead II",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead II not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead III unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead III",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead III",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead III",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead III not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead AVL unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead AVL",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead AVL",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead AVL",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead AVL not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead AVR unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead AVR",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead AVR",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead AVR",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead AVR",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead AVR not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead AVF unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead AVF",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead AVF",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead AVF",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead AVF not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V1 unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead V1",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead V1",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead V1",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead V1",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V1 not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V2 unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead V2",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead V2",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead V2",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead V2",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V2 omitted due to sequence error",
+      "target": "Lead sequence error"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V3 unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead V3",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead V3",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead V3",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead V3",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V3 omitted due to sequence error",
+      "target": "Lead sequence error"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V4 unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead V4",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead V4",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead V4",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead V4",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V4 not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V4 omitted due to sequence error",
+      "target": "Lead sequence error"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V5 unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead V5",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead V5",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead V5",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead V5",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V5 not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V5 omitted due to sequence error",
+      "target": "Lead sequence error"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V6 unsuitable for analysis",
+      "target": "Lead unsuitable for analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Missing lead V6",
+      "target": "Missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Partial missing lead V6",
+      "target": "Partial missing lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Artifact in lead V6",
+      "target": "Artifact in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Baseline wander in lead V6",
+      "target": "Baseline wander in lead"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lead V6 not used for morphology analysis",
+      "target": "Lead not used for morphology analysis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Left atrial abnormality",
+      "target": "Abnormal electrocardiogram"
+    },
+    {
+      "relation": "is-a",
+      "source": "Right atrial abnormality",
+      "target": "Abnormal electrocardiogram"
+    },
+    {
+      "relation": "is-a",
+      "source": "Biatrial abnormality",
+      "target": "Left atrial abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Biatrial abnormality",
+      "target": "Right atrial abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "T wave",
+      "target": "Wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "T wave abnormality",
+      "target": "T wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Nonspecific T wave abnormality",
+      "target": "T wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "T wave inversion",
+      "target": "T wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Tall T wave",
+      "target": "T wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "ST wave",
+      "target": "Wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "ST wave abnormality",
+      "target": "ST wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Nonspecific ST wave abnormality",
+      "target": "ST wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "ST depression",
+      "target": "ST wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Reciprocal ST depression",
+      "target": "ST depression"
+    },
+    {
+      "relation": "is-a",
+      "source": "ST elevation",
+      "target": "ST wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "ST-T wave abnormality",
+      "target": "ST wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "ST-T wave abnormality",
+      "target": "T wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Nonspecific ST-T wave abnormality",
+      "target": "ST-T wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Digitalis effect",
+      "target": "ST-T wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "J wave",
+      "target": "J point"
+    },
+    {
+      "relation": "is-a",
+      "source": "J wave syndrome",
+      "target": "J wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "R wave",
+      "target": "Wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "R wave abnormality",
+      "target": "R wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Abnormal R wave progression",
+      "target": "R wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Poor R wave progression",
+      "target": "Abnormal R wave progression"
+    },
+    {
+      "relation": "is-a",
+      "source": "Early R wave transition",
+      "target": "R wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Late R wave transition",
+      "target": "R wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Tall R wave",
+      "target": "R wave abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "P wave",
+      "target": "Wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Nonconducted P wave",
+      "target": "Missing QRS complexes"
+    },
+    {
+      "relation": "is-a",
+      "source": "Nonconducted P wave",
+      "target": "P wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Tall inferior P wave",
+      "target": "P wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "U wave",
+      "target": "Wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Q wave",
+      "target": "Wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "S wave",
+      "target": "Wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Delta wave",
+      "target": "Wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "QRS changes",
+      "target": "QRS complex"
+    },
+    {
+      "relation": "is-a",
+      "source": "Wide QRS complex",
+      "target": "QRS complex"
+    },
+    {
+      "relation": "is-a",
+      "source": "Narrow QRS complex",
+      "target": "QRS complex"
+    },
+    {
+      "relation": "is-a",
+      "source": "Indeterminate axis",
+      "target": "QRS axis"
+    },
+    {
+      "relation": "is-a",
+      "source": "QRS axis deviation",
+      "target": "QRS axis"
+    },
+    {
+      "relation": "is-a",
+      "source": "Right axis deviation",
+      "target": "QRS axis deviation"
+    },
+    {
+      "relation": "is-a",
+      "source": "Left axis deviation",
+      "target": "QRS axis deviation"
+    },
+    {
+      "relation": "is-a",
+      "source": "Extreme axis deviation",
+      "target": "QRS axis deviation"
+    },
+    {
+      "relation": "is-a",
+      "source": "QT interval",
+      "target": "Interval"
+    },
+    {
+      "relation": "is-a",
+      "source": "Prolonged QT interval",
+      "target": "QT interval"
+    },
+    {
+      "relation": "is-a",
+      "source": "Short QT interval",
+      "target": "QT interval"
+    },
+    {
+      "relation": "is-a",
+      "source": "Borderline QT interval",
+      "target": "QT interval"
+    },
+    {
+      "relation": "is-a",
+      "source": "PR interval",
+      "target": "Interval"
+    },
+    {
+      "relation": "is-a",
+      "source": "Prolonged PR interval",
+      "target": "PR interval"
+    },
+    {
+      "relation": "is-a",
+      "source": "Short PR interval",
+      "target": "PR interval"
+    },
+    {
+      "relation": "is-a",
+      "source": "Progressive PR prolongation",
+      "target": "Prolonged PR interval"
+    },
+    {
+      "relation": "is-a",
+      "source": "RSR' pattern",
+      "target": "S wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus rhythm",
+      "target": "Rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus arrhythmia",
+      "target": "Sinus rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Arrhythmia",
+      "target": "Rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Undetermined rhythm",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Undetermined irregularity",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Irregular rate",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ventricular rhythm",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Supraventricular rhythm",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial rhythm",
+      "target": "Supraventricular rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Junctional rhythm",
+      "target": "Supraventricular rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic contraction",
+      "target": "Ectopy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic rhythm",
+      "target": "Ectopic contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic rhythm",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic ventricular contraction",
+      "target": "Ectopic contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic supraventricular contraction",
+      "target": "Ectopic contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic supraventricular rhythm",
+      "target": "Ectopic supraventricular contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic supraventricular rhythm",
+      "target": "Supraventricular rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic supraventricular rhythm",
+      "target": "Ectopic rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic atrial contraction",
+      "target": "Ectopic supraventricular contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic atrial rhythm",
+      "target": "Ectopic atrial contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic atrial rhythm",
+      "target": "Atrial rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic atrial rhythm",
+      "target": "Ectopic supraventricular rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Wandering atrial pacemaker",
+      "target": "Ectopic atrial rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Premature contraction",
+      "target": "Ectopic contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Premature ventricular contraction",
+      "target": "Ectopic ventricular contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Premature ventricular contraction",
+      "target": "Premature contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Premature supraventricular contraction",
+      "target": "Ectopic supraventricular contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Premature supraventricular contraction",
+      "target": "Premature contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Premature atrial contraction",
+      "target": "Ectopic atrial contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Premature atrial contraction",
+      "target": "Premature supraventricular contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Escape contraction",
+      "target": "Ectopic contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ventricular escape contraction",
+      "target": "Ectopic ventricular contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ventricular escape contraction",
+      "target": "Escape contraction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Bigeminy",
+      "target": "Ectopic rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Trigeminy",
+      "target": "Ectopic rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Idioventricular rhythm",
+      "target": "Ventricular rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Idioventricular rhythm",
+      "target": "Bradycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Bradycardia",
+      "target": "Low heart rate"
+    },
+    {
+      "relation": "is-a",
+      "source": "Bradycardia",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Accelerated idioventricular rhythm",
+      "target": "Ventricular rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Tachycardia",
+      "target": "High heart rate"
+    },
+    {
+      "relation": "is-a",
+      "source": "Tachycardia",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus tachycardia",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus tachycardia",
+      "target": "Sinus rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Reentry tachycardia",
+      "target": "Reentry"
+    },
+    {
+      "relation": "is-a",
+      "source": "Reentry tachycardia",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Reentry",
+      "target": "Arrhythmia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Reentry",
+      "target": "Accessory pathway conduction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Wide complex tachycardia",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Wide complex tachycardia",
+      "target": "Wide QRS complex"
+    },
+    {
+      "relation": "is-a",
+      "source": "Narrow complex tachycardia",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Narrow complex tachycardia",
+      "target": "Narrow QRS complex"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ventricular tachycardia",
+      "target": "Ventricular rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ventricular tachycardia",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Supraventricular tachycardia",
+      "target": "Supraventricular rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Supraventricular tachycardia",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "requires",
+      "source": "Supraventricular tachycardia with aberrancy",
+      "target": "Supraventricular tachycardia"
+    },
+    {
+      "relation": "requires",
+      "source": "Supraventricular tachycardia with aberrancy",
+      "target": "Aberrant ventricular conduction"
+    },
+    {
+      "relation": "requires",
+      "source": "Supraventricular tachycardia with aberrancy",
+      "target": "Bundle branch block"
+    },
+    {
+      "relation": "requires",
+      "source": "Supraventricular tachycardia with aberrancy",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "excludes",
+      "source": "Supraventricular tachycardia with aberrancy",
+      "target": "Ventricular tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Aberrant ventricular conduction",
+      "target": "Conduction defect"
+    },
+    {
+      "relation": "requires",
+      "source": "Paroxysmal supraventricular tachycardia",
+      "target": "Supraventricular tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial tachycardia",
+      "target": "Atrial rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial tachycardia",
+      "target": "Supraventricular tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial tachycardia",
+      "target": "Narrow complex tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic atrial tachycardia",
+      "target": "Atrial tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic atrial tachycardia",
+      "target": "Ectopic atrial rhythm"
+    },
+    {
+      "relation": "requires",
+      "source": "Paroxysmal atrial tachycardia",
+      "target": "Atrial tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Paroxysmal atrial tachycardia",
+      "target": "Paroxysmal supraventricular tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial fibrillation",
+      "target": "Atrial rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial fibrillation",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial fibrillation",
+      "target": "Reentry"
+    },
+    {
+      "relation": "is-a",
+      "source": "Macro-reentry atrial tachycardia",
+      "target": "Atrial tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Macro-reentry atrial tachycardia",
+      "target": "Reentry tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial flutter",
+      "target": "Macro-reentry atrial tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Junctional tachycardia",
+      "target": "Junctional rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Junctional tachycardia",
+      "target": "Tachycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Accelerated junctional rhythm",
+      "target": "Junctional rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus bradycardia",
+      "target": "Bradycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus bradycardia",
+      "target": "Sinus rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Junctional bradycardia",
+      "target": "Junctional rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Junctional bradycardia",
+      "target": "Bradycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial bradycardia",
+      "target": "Atrial rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial bradycardia",
+      "target": "Bradycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic atrial bradycardia",
+      "target": "Atrial bradycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ectopic atrial bradycardia",
+      "target": "Ectopic atrial rhythm"
+    },
+    {
+      "relation": "is-a",
+      "source": "Conduction defect",
+      "target": "Conduction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Intraventricular conduction defect",
+      "target": "Conduction defect"
+    },
+    {
+      "relation": "is-a",
+      "source": "Bundle branch block aberrancy",
+      "target": "Aberrant ventricular conduction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Right bundle branch block aberrancy",
+      "target": "Bundle branch block aberrancy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Left bundle branch block aberrancy",
+      "target": "Bundle branch block aberrancy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Accessory pathway conduction",
+      "target": "Conduction defect"
+    },
+    {
+      "relation": "is-a",
+      "source": "Preexcitation syndrome",
+      "target": "Accessory pathway conduction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Wolff-Parkinson-White syndrome",
+      "target": "Preexcitation syndrome"
+    },
+    {
+      "relation": "is-a",
+      "source": "Wolff-Parkinson-White type A",
+      "target": "Wolff-Parkinson-White syndrome"
+    },
+    {
+      "relation": "is-a",
+      "source": "Wolff-Parkinson-White type B",
+      "target": "Wolff-Parkinson-White syndrome"
+    },
+    {
+      "relation": "is-a",
+      "source": "Conduction delay",
+      "target": "Conduction defect"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ventricular conduction delay",
+      "target": "Conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "Intraventricular conduction delay",
+      "target": "Ventricular conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "Intraventricular conduction delay",
+      "target": "Intraventricular conduction defect"
+    },
+    {
+      "relation": "is-a",
+      "source": "Nonspecific intraventricular conduction delay",
+      "target": "Intraventricular conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "Right ventricular conduction delay",
+      "target": "Ventricular conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "Right bundle branch conduction delay",
+      "target": "Right ventricular conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular conduction delay",
+      "target": "Conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "Conduction block",
+      "target": "Conduction defect"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular block",
+      "target": "Conduction block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete atrioventricular block",
+      "target": "Atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete atrioventricular block",
+      "target": "Atrioventricular conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "1st degree atrioventricular block",
+      "target": "Incomplete atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "2nd degree atrioventricular block",
+      "target": "Incomplete atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Variable atrioventricular block",
+      "target": "2nd degree atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "High grade atrioventricular block",
+      "target": "2nd degree atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "High grade atrioventricular block",
+      "target": "Slow ventricular response"
+    },
+    {
+      "relation": "is-a",
+      "source": "2:1 conduction ratio",
+      "target": "2nd degree atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "3:1 conduction ratio",
+      "target": "High grade atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "4:1 conduction ratio",
+      "target": "High grade atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular Mobitz type 1 block",
+      "target": "2nd degree atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular Mobitz type 1 block",
+      "target": "Nonconducted P wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular Mobitz type 1 block",
+      "target": "Progressive PR prolongation"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular Mobitz type 2 block",
+      "target": "2nd degree atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular Mobitz type 2 block",
+      "target": "Nonconducted P wave"
+    },
+    {
+      "relation": "is-a",
+      "source": "3rd degree atrioventricular block",
+      "target": "Atrioventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "3rd degree atrioventricular block",
+      "target": "Atrioventricular dissociation"
+    },
+    {
+      "relation": "is-a",
+      "source": "3rd degree atrioventricular block",
+      "target": "Bradycardia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular dissociation",
+      "target": "Conduction defect"
+    },
+    {
+      "relation": "is-a",
+      "source": "Intraventricular block",
+      "target": "Conduction block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Fascicular block",
+      "target": "Intraventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Left anterior fascicular block",
+      "target": "Fascicular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Left posterior fascicular block",
+      "target": "Fascicular block"
+    },
+    {
+      "relation": "requires",
+      "source": "Bifascicular block",
+      "target": "Right bundle branch block"
+    },
+    {
+      "relation": "requires",
+      "source": "Bifascicular block",
+      "target": "Fascicular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Right bundle branch block",
+      "target": "Bundle branch block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Right bundle branch block",
+      "target": "Right bundle branch block aberrancy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Bundle branch block",
+      "target": "Intraventricular block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Bundle branch block",
+      "target": "Bundle branch block aberrancy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete bundle branch block",
+      "target": "Bundle branch block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete right bundle branch block",
+      "target": "Right bundle branch block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete right bundle branch block",
+      "target": "Right bundle branch conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete right bundle branch block",
+      "target": "Incomplete bundle branch block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Left bundle branch block",
+      "target": "Bundle branch block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Left bundle branch block",
+      "target": "Left bundle branch block aberrancy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete left bundle branch block",
+      "target": "Left bundle branch block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete left bundle branch block",
+      "target": "Ventricular conduction delay"
+    },
+    {
+      "relation": "is-a",
+      "source": "Incomplete left bundle branch block",
+      "target": "Incomplete bundle branch block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus node dysfunction",
+      "target": "Conduction defect"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus block",
+      "target": "Conduction block"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus block",
+      "target": "Sinus node dysfunction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sinus pause",
+      "target": "Sinus node dysfunction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ventricular hypertrophy",
+      "target": "Hypertrophy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Left ventricular hypertrophy",
+      "target": "Ventricular hypertrophy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Right ventricular hypertrophy",
+      "target": "Ventricular hypertrophy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Biventricular hypertrophy",
+      "target": "Left ventricular hypertrophy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Biventricular hypertrophy",
+      "target": "Right ventricular hypertrophy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Inferior ischemia",
+      "target": "Ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lateral ischemia",
+      "target": "Ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Anterior ischemia",
+      "target": "Ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Septal ischemia",
+      "target": "Ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Injury",
+      "target": "Ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Inferior injury",
+      "target": "Inferior ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Inferior injury",
+      "target": "Injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lateral injury",
+      "target": "Lateral ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lateral injury",
+      "target": "Injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Anterior injury",
+      "target": "Anterior ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Anterior injury",
+      "target": "Injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Septal injury",
+      "target": "Septal ischemia"
+    },
+    {
+      "relation": "is-a",
+      "source": "Septal injury",
+      "target": "Injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Infarction",
+      "target": "Injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Infarction extension",
+      "target": "Infarction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Infarction, acute",
+      "target": "Infarction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Infarction, acute",
+      "target": "Acute coronary syndrome"
+    },
+    {
+      "relation": "is-a",
+      "source": "STEMI",
+      "target": "Infarction, acute"
+    },
+    {
+      "relation": "is-a",
+      "source": "STEMI",
+      "target": "ST elevation"
+    },
+    {
+      "relation": "is-a",
+      "source": "Inferior infarction",
+      "target": "Inferior injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Inferior infarction",
+      "target": "Infarction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lateral infarction",
+      "target": "Lateral injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Lateral infarction",
+      "target": "Infarction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Anterior infarction",
+      "target": "Anterior injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Anterior infarction",
+      "target": "Infarction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Septal infarction",
+      "target": "Septal injury"
+    },
+    {
+      "relation": "is-a",
+      "source": "Septal infarction",
+      "target": "Infarction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Posterior extension",
+      "target": "Infarction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Early repolarization syndrome",
+      "target": "Cardiac channelopathy"
+    },
+    {
+      "relation": "is-a",
+      "source": "Early repolarization syndrome",
+      "target": "Repolarization abnormality"
+    },
+    {
+      "relation": "is-a",
+      "source": "Early repolarization syndrome",
+      "target": "J wave syndrome"
+    },
+    {
+      "relation": "is-a",
+      "source": "Suggest assess electrolytes",
+      "target": "Needs clinical correlation"
+    },
+    {
+      "relation": "is-a",
+      "source": "Hyperkalemia",
+      "target": "J wave syndrome"
+    },
+    {
+      "relation": "is-a",
+      "source": "Hyperkalemia",
+      "target": "Suggest assess electrolytes"
+    },
+    {
+      "relation": "is-a",
+      "source": "Hypercalcemia",
+      "target": "Suggest assess electrolytes"
+    },
+    {
+      "relation": "is-a",
+      "source": "Hypocalcemia",
+      "target": "Suggest assess electrolytes"
+    },
+    {
+      "relation": "is-a",
+      "source": "Cerebrovascular accident",
+      "target": "Intracranial pathology"
+    },
+    {
+      "relation": "is-a",
+      "source": "Electronic pacemaker artifact",
+      "target": "Electronic pacemaker"
+    },
+    {
+      "relation": "is-a",
+      "source": "Electronic pacemaker spike",
+      "target": "Electronic pacemaker artifact"
+    },
+    {
+      "relation": "is-a",
+      "source": "Fusion complex",
+      "target": "Electronic pacemaker"
+    },
+    {
+      "relation": "is-a",
+      "source": "Pacing",
+      "target": "Electronic pacemaker"
+    },
+    {
+      "relation": "is-a",
+      "source": "Demand pacing",
+      "target": "Pacing"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ventricular pacing",
+      "target": "Pacing"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial pacing",
+      "target": "Pacing"
+    },
+    {
+      "relation": "is-a",
+      "source": "Dual-chamber pacing",
+      "target": "Ventricular pacing"
+    },
+    {
+      "relation": "is-a",
+      "source": "Dual-chamber pacing",
+      "target": "Atrial pacing"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrioventricular sequential pacing",
+      "target": "Dual-chamber pacing"
+    },
+    {
+      "relation": "is-a",
+      "source": "Sensing",
+      "target": "Electronic pacemaker"
+    },
+    {
+      "relation": "is-a",
+      "source": "Atrial sensing",
+      "target": "Sensing"
+    },
+    {
+      "relation": "is-a",
+      "source": "Electronic pacemaker malfunction",
+      "target": "Electronic pacemaker"
+    },
+    {
+      "relation": "is-a",
+      "source": "Ineffective stimuli",
+      "target": "Electronic pacemaker malfunction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Loss of sensing",
+      "target": "Electronic pacemaker malfunction"
+    },
+    {
+      "relation": "is-a",
+      "source": "Loss of capture",
+      "target": "Electronic pacemaker malfunction"
+    }
+  ]
+}

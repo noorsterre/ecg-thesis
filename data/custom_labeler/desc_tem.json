@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Severe",
+    "category": "severity"
+  },
+  {
+    "name": "Sinus",
+    "category": "location"
+  },
+  {
+    "name": "Atrial",
+    "category": "location"
+  },
+  {
+    "name": "Ventricular",
+    "category": "location"
+  },
+  {
+    "name": "Multiple",
+    "category": "quantity"
+  },
+  {
+    "name": "Possible",
+    "category": "uncertainty"
+  },
+  {
+    "name": "Probable",
+    "category": "uncertainty"
+  }
+]

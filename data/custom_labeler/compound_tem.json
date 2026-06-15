@@ -1,0 +1,10 @@
+[
+  {
+    "entity": "Bifascicular block",
+    "including": [
+      "Right bundle branch block",
+      "Fascicular block"
+    ],
+    "excluding": []
+  }
+]

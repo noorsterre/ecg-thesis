@@ -1,0 +1,356 @@
+source,relation,target
+Normal electrocardiogram,is-a,Electrocardiogram
+Abnormal electrocardiogram,is-a,Electrocardiogram
+Borderline electrocardiogram,is-a,Electrocardiogram
+Normal electrocardiogram except for rate,is-a,Electrocardiogram
+Low heart rate,is-a,Heart rate
+High heart rate,is-a,Heart rate
+Poor data quality,is-a,Difficulty interpreting
+Cannot adequately assess,is-a,Poor data quality
+Artifact,is-a,Poor data quality
+Lead misplacement,is-a,Lead unsuitable for analysis
+Lead unsuitable for analysis,is-a,Lead not used for morphology analysis
+Lead reversal,is-a,Lead misplacement
+Lead reversal,is-a,Cannot adequately assess
+Limb lead reversal,is-a,Lead reversal
+Arm lead reversal,is-a,Limb lead reversal
+Missing leads/data,is-a,Poor data quality
+Missing leads/data,is-a,Lead unsuitable for analysis
+Lead not used for morphology analysis,is-a,Poor data quality
+Missing lead,is-a,Missing leads/data
+Partial missing lead,is-a,Missing leads/data
+Artifact in lead,is-a,Lead unsuitable for analysis
+Artifact in lead,is-a,Artifact
+Baseline wander in lead,is-a,Artifact in lead
+Lead sequence error,is-a,Lead misplacement
+Lead I unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead I,is-a,Missing lead
+Partial missing lead I,is-a,Partial missing lead
+Artifact in lead I,is-a,Artifact in lead
+Baseline wander in lead I,is-a,Baseline wander in lead
+Lead I not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead II unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead II,is-a,Missing lead
+Partial missing lead II,is-a,Partial missing lead
+Artifact in lead II,is-a,Artifact in lead
+Baseline wander in lead II,is-a,Baseline wander in lead
+Lead II not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead III unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead III,is-a,Missing lead
+Artifact in lead III,is-a,Artifact in lead
+Baseline wander in lead III,is-a,Baseline wander in lead
+Lead III not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead AVL unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead AVL,is-a,Missing lead
+Artifact in lead AVL,is-a,Artifact in lead
+Baseline wander in lead AVL,is-a,Baseline wander in lead
+Lead AVL not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead AVR unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead AVR,is-a,Missing lead
+Partial missing lead AVR,is-a,Partial missing lead
+Artifact in lead AVR,is-a,Artifact in lead
+Baseline wander in lead AVR,is-a,Baseline wander in lead
+Lead AVR not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead AVF unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead AVF,is-a,Missing lead
+Artifact in lead AVF,is-a,Artifact in lead
+Baseline wander in lead AVF,is-a,Baseline wander in lead
+Lead AVF not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead V1 unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead V1,is-a,Missing lead
+Partial missing lead V1,is-a,Partial missing lead
+Artifact in lead V1,is-a,Artifact in lead
+Baseline wander in lead V1,is-a,Baseline wander in lead
+Lead V1 not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead V2 unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead V2,is-a,Missing lead
+Partial missing lead V2,is-a,Partial missing lead
+Artifact in lead V2,is-a,Artifact in lead
+Baseline wander in lead V2,is-a,Baseline wander in lead
+Lead V2 omitted due to sequence error,is-a,Lead sequence error
+Lead V3 unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead V3,is-a,Missing lead
+Partial missing lead V3,is-a,Partial missing lead
+Artifact in lead V3,is-a,Artifact in lead
+Baseline wander in lead V3,is-a,Baseline wander in lead
+Lead V3 omitted due to sequence error,is-a,Lead sequence error
+Lead V4 unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead V4,is-a,Missing lead
+Partial missing lead V4,is-a,Partial missing lead
+Artifact in lead V4,is-a,Artifact in lead
+Baseline wander in lead V4,is-a,Baseline wander in lead
+Lead V4 not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead V4 omitted due to sequence error,is-a,Lead sequence error
+Lead V5 unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead V5,is-a,Missing lead
+Partial missing lead V5,is-a,Partial missing lead
+Artifact in lead V5,is-a,Artifact in lead
+Baseline wander in lead V5,is-a,Baseline wander in lead
+Lead V5 not used for morphology analysis,is-a,Lead not used for morphology analysis
+Lead V5 omitted due to sequence error,is-a,Lead sequence error
+Lead V6 unsuitable for analysis,is-a,Lead unsuitable for analysis
+Missing lead V6,is-a,Missing lead
+Partial missing lead V6,is-a,Partial missing lead
+Artifact in lead V6,is-a,Artifact in lead
+Baseline wander in lead V6,is-a,Baseline wander in lead
+Lead V6 not used for morphology analysis,is-a,Lead not used for morphology analysis
+Left atrial abnormality,is-a,Abnormal electrocardiogram
+Right atrial abnormality,is-a,Abnormal electrocardiogram
+Biatrial abnormality,is-a,Left atrial abnormality
+Biatrial abnormality,is-a,Right atrial abnormality
+T wave,is-a,Wave
+T wave abnormality,is-a,T wave
+Nonspecific T wave abnormality,is-a,T wave abnormality
+T wave inversion,is-a,T wave
+Tall T wave,is-a,T wave abnormality
+ST wave,is-a,Wave
+ST wave abnormality,is-a,ST wave
+Nonspecific ST wave abnormality,is-a,ST wave abnormality
+ST depression,is-a,ST wave abnormality
+Reciprocal ST depression,is-a,ST depression
+ST elevation,is-a,ST wave abnormality
+ST-T wave abnormality,is-a,ST wave abnormality
+ST-T wave abnormality,is-a,T wave abnormality
+Nonspecific ST-T wave abnormality,is-a,ST-T wave abnormality
+Digitalis effect,is-a,ST-T wave abnormality
+J wave,is-a,J point
+J wave syndrome,is-a,J wave
+R wave,is-a,Wave
+R wave abnormality,is-a,R wave
+Abnormal R wave progression,is-a,R wave abnormality
+Poor R wave progression,is-a,Abnormal R wave progression
+Early R wave transition,is-a,R wave abnormality
+Late R wave transition,is-a,R wave abnormality
+Tall R wave,is-a,R wave abnormality
+P wave,is-a,Wave
+Nonconducted P wave,is-a,Missing QRS complexes
+Nonconducted P wave,is-a,P wave
+Tall inferior P wave,is-a,P wave
+U wave,is-a,Wave
+Q wave,is-a,Wave
+S wave,is-a,Wave
+Delta wave,is-a,Wave
+QRS changes,is-a,QRS complex
+Wide QRS complex,is-a,QRS complex
+Narrow QRS complex,is-a,QRS complex
+Indeterminate axis,is-a,QRS axis
+QRS axis deviation,is-a,QRS axis
+Right axis deviation,is-a,QRS axis deviation
+Left axis deviation,is-a,QRS axis deviation
+Extreme axis deviation,is-a,QRS axis deviation
+QT interval,is-a,Interval
+Prolonged QT interval,is-a,QT interval
+Short QT interval,is-a,QT interval
+Borderline QT interval,is-a,QT interval
+PR interval,is-a,Interval
+Prolonged PR interval,is-a,PR interval
+Short PR interval,is-a,PR interval
+Progressive PR prolongation,is-a,Prolonged PR interval
+RSR' pattern,is-a,S wave
+Sinus rhythm,is-a,Rhythm
+Sinus arrhythmia,is-a,Sinus rhythm
+Arrhythmia,is-a,Rhythm
+Undetermined rhythm,is-a,Arrhythmia
+Undetermined irregularity,is-a,Arrhythmia
+Irregular rate,is-a,Arrhythmia
+Ventricular rhythm,is-a,Arrhythmia
+Supraventricular rhythm,is-a,Arrhythmia
+Atrial rhythm,is-a,Supraventricular rhythm
+Junctional rhythm,is-a,Supraventricular rhythm
+Ectopic contraction,is-a,Ectopy
+Ectopic rhythm,is-a,Ectopic contraction
+Ectopic rhythm,is-a,Arrhythmia
+Ectopic ventricular contraction,is-a,Ectopic contraction
+Ectopic supraventricular contraction,is-a,Ectopic contraction
+Ectopic supraventricular rhythm,is-a,Ectopic supraventricular contraction
+Ectopic supraventricular rhythm,is-a,Supraventricular rhythm
+Ectopic supraventricular rhythm,is-a,Ectopic rhythm
+Ectopic atrial contraction,is-a,Ectopic supraventricular contraction
+Ectopic atrial rhythm,is-a,Ectopic atrial contraction
+Ectopic atrial rhythm,is-a,Atrial rhythm
+Ectopic atrial rhythm,is-a,Ectopic supraventricular rhythm
+Wandering atrial pacemaker,is-a,Ectopic atrial rhythm
+Premature contraction,is-a,Ectopic contraction
+Premature ventricular contraction,is-a,Ectopic ventricular contraction
+Premature ventricular contraction,is-a,Premature contraction
+Premature supraventricular contraction,is-a,Ectopic supraventricular contraction
+Premature supraventricular contraction,is-a,Premature contraction
+Premature atrial contraction,is-a,Ectopic atrial contraction
+Premature atrial contraction,is-a,Premature supraventricular contraction
+Escape contraction,is-a,Ectopic contraction
+Ventricular escape contraction,is-a,Ectopic ventricular contraction
+Ventricular escape contraction,is-a,Escape contraction
+Bigeminy,is-a,Ectopic rhythm
+Trigeminy,is-a,Ectopic rhythm
+Idioventricular rhythm,is-a,Ventricular rhythm
+Idioventricular rhythm,is-a,Bradycardia
+Bradycardia,is-a,Low heart rate
+Bradycardia,is-a,Arrhythmia
+Accelerated idioventricular rhythm,is-a,Ventricular rhythm
+Tachycardia,is-a,High heart rate
+Tachycardia,is-a,Arrhythmia
+Sinus tachycardia,is-a,Tachycardia
+Sinus tachycardia,is-a,Sinus rhythm
+Reentry tachycardia,is-a,Reentry
+Reentry tachycardia,is-a,Tachycardia
+Reentry,is-a,Arrhythmia
+Reentry,is-a,Accessory pathway conduction
+Wide complex tachycardia,is-a,Tachycardia
+Wide complex tachycardia,is-a,Wide QRS complex
+Narrow complex tachycardia,is-a,Tachycardia
+Narrow complex tachycardia,is-a,Narrow QRS complex
+Ventricular tachycardia,is-a,Ventricular rhythm
+Ventricular tachycardia,is-a,Tachycardia
+Supraventricular tachycardia,is-a,Supraventricular rhythm
+Supraventricular tachycardia,is-a,Tachycardia
+Supraventricular tachycardia with aberrancy,requires,Supraventricular tachycardia
+Supraventricular tachycardia with aberrancy,requires,Aberrant ventricular conduction
+Supraventricular tachycardia with aberrancy,requires,Bundle branch block
+Supraventricular tachycardia with aberrancy,requires,Tachycardia
+Supraventricular tachycardia with aberrancy,excludes,Ventricular tachycardia
+Aberrant ventricular conduction,is-a,Conduction defect
+Paroxysmal supraventricular tachycardia,requires,Supraventricular tachycardia
+Atrial tachycardia,is-a,Atrial rhythm
+Atrial tachycardia,is-a,Supraventricular tachycardia
+Atrial tachycardia,is-a,Narrow complex tachycardia
+Ectopic atrial tachycardia,is-a,Atrial tachycardia
+Ectopic atrial tachycardia,is-a,Ectopic atrial rhythm
+Paroxysmal atrial tachycardia,requires,Atrial tachycardia
+Paroxysmal atrial tachycardia,is-a,Paroxysmal supraventricular tachycardia
+Atrial fibrillation,is-a,Atrial rhythm
+Atrial fibrillation,is-a,Tachycardia
+Atrial fibrillation,is-a,Reentry
+Macro-reentry atrial tachycardia,is-a,Atrial tachycardia
+Macro-reentry atrial tachycardia,is-a,Reentry tachycardia
+Atrial flutter,is-a,Macro-reentry atrial tachycardia
+Junctional tachycardia,is-a,Junctional rhythm
+Junctional tachycardia,is-a,Tachycardia
+Accelerated junctional rhythm,is-a,Junctional rhythm
+Sinus bradycardia,is-a,Bradycardia
+Sinus bradycardia,is-a,Sinus rhythm
+Junctional bradycardia,is-a,Junctional rhythm
+Junctional bradycardia,is-a,Bradycardia
+Atrial bradycardia,is-a,Atrial rhythm
+Atrial bradycardia,is-a,Bradycardia
+Ectopic atrial bradycardia,is-a,Atrial bradycardia
+Ectopic atrial bradycardia,is-a,Ectopic atrial rhythm
+Conduction defect,is-a,Conduction
+Intraventricular conduction defect,is-a,Conduction defect
+Bundle branch block aberrancy,is-a,Aberrant ventricular conduction
+Right bundle branch block aberrancy,is-a,Bundle branch block aberrancy
+Left bundle branch block aberrancy,is-a,Bundle branch block aberrancy
+Accessory pathway conduction,is-a,Conduction defect
+Preexcitation syndrome,is-a,Accessory pathway conduction
+Wolff-Parkinson-White syndrome,is-a,Preexcitation syndrome
+Wolff-Parkinson-White type A,is-a,Wolff-Parkinson-White syndrome
+Wolff-Parkinson-White type B,is-a,Wolff-Parkinson-White syndrome
+Conduction delay,is-a,Conduction defect
+Ventricular conduction delay,is-a,Conduction delay
+Intraventricular conduction delay,is-a,Ventricular conduction delay
+Intraventricular conduction delay,is-a,Intraventricular conduction defect
+Nonspecific intraventricular conduction delay,is-a,Intraventricular conduction delay
+Right ventricular conduction delay,is-a,Ventricular conduction delay
+Right bundle branch conduction delay,is-a,Right ventricular conduction delay
+Atrioventricular conduction delay,is-a,Conduction delay
+Conduction block,is-a,Conduction defect
+Atrioventricular block,is-a,Conduction block
+Incomplete atrioventricular block,is-a,Atrioventricular block
+Incomplete atrioventricular block,is-a,Atrioventricular conduction delay
+1st degree atrioventricular block,is-a,Incomplete atrioventricular block
+2nd degree atrioventricular block,is-a,Incomplete atrioventricular block
+Variable atrioventricular block,is-a,2nd degree atrioventricular block
+High grade atrioventricular block,is-a,2nd degree atrioventricular block
+High grade atrioventricular block,is-a,Slow ventricular response
+2:1 conduction ratio,is-a,2nd degree atrioventricular block
+3:1 conduction ratio,is-a,High grade atrioventricular block
+4:1 conduction ratio,is-a,High grade atrioventricular block
+Atrioventricular Mobitz type 1 block,is-a,2nd degree atrioventricular block
+Atrioventricular Mobitz type 1 block,is-a,Nonconducted P wave
+Atrioventricular Mobitz type 1 block,is-a,Progressive PR prolongation
+Atrioventricular Mobitz type 2 block,is-a,2nd degree atrioventricular block
+Atrioventricular Mobitz type 2 block,is-a,Nonconducted P wave
+3rd degree atrioventricular block,is-a,Atrioventricular block
+3rd degree atrioventricular block,is-a,Atrioventricular dissociation
+3rd degree atrioventricular block,is-a,Bradycardia
+Atrioventricular dissociation,is-a,Conduction defect
+Intraventricular block,is-a,Conduction block
+Fascicular block,is-a,Intraventricular block
+Left anterior fascicular block,is-a,Fascicular block
+Left posterior fascicular block,is-a,Fascicular block
+Bifascicular block,requires,Right bundle branch block
+Bifascicular block,requires,Fascicular block
+Right bundle branch block,is-a,Bundle branch block
+Right bundle branch block,is-a,Right bundle branch block aberrancy
+Bundle branch block,is-a,Intraventricular block
+Bundle branch block,is-a,Bundle branch block aberrancy
+Incomplete bundle branch block,is-a,Bundle branch block
+Incomplete right bundle branch block,is-a,Right bundle branch block
+Incomplete right bundle branch block,is-a,Right bundle branch conduction delay
+Incomplete right bundle branch block,is-a,Incomplete bundle branch block
+Left bundle branch block,is-a,Bundle branch block
+Left bundle branch block,is-a,Left bundle branch block aberrancy
+Incomplete left bundle branch block,is-a,Left bundle branch block
+Incomplete left bundle branch block,is-a,Ventricular conduction delay
+Incomplete left bundle branch block,is-a,Incomplete bundle branch block
+Sinus node dysfunction,is-a,Conduction defect
+Sinus block,is-a,Conduction block
+Sinus block,is-a,Sinus node dysfunction
+Sinus pause,is-a,Sinus node dysfunction
+Ventricular hypertrophy,is-a,Hypertrophy
+Left ventricular hypertrophy,is-a,Ventricular hypertrophy
+Right ventricular hypertrophy,is-a,Ventricular hypertrophy
+Biventricular hypertrophy,is-a,Left ventricular hypertrophy
+Biventricular hypertrophy,is-a,Right ventricular hypertrophy
+Inferior ischemia,is-a,Ischemia
+Lateral ischemia,is-a,Ischemia
+Anterior ischemia,is-a,Ischemia
+Septal ischemia,is-a,Ischemia
+Injury,is-a,Ischemia
+Inferior injury,is-a,Inferior ischemia
+Inferior injury,is-a,Injury
+Lateral injury,is-a,Lateral ischemia
+Lateral injury,is-a,Injury
+Anterior injury,is-a,Anterior ischemia
+Anterior injury,is-a,Injury
+Septal injury,is-a,Septal ischemia
+Septal injury,is-a,Injury
+Infarction,is-a,Injury
+Infarction extension,is-a,Infarction
+"Infarction, acute",is-a,Infarction
+"Infarction, acute",is-a,Acute coronary syndrome
+STEMI,is-a,"Infarction, acute"
+STEMI,is-a,ST elevation
+Inferior infarction,is-a,Inferior injury
+Inferior infarction,is-a,Infarction
+Lateral infarction,is-a,Lateral injury
+Lateral infarction,is-a,Infarction
+Anterior infarction,is-a,Anterior injury
+Anterior infarction,is-a,Infarction
+Septal infarction,is-a,Septal injury
+Septal infarction,is-a,Infarction
+Posterior extension,is-a,Infarction
+Early repolarization syndrome,is-a,Cardiac channelopathy
+Early repolarization syndrome,is-a,Repolarization abnormality
+Early repolarization syndrome,is-a,J wave syndrome
+Suggest assess electrolytes,is-a,Needs clinical correlation
+Hyperkalemia,is-a,J wave syndrome
+Hyperkalemia,is-a,Suggest assess electrolytes
+Hypercalcemia,is-a,Suggest assess electrolytes
+Hypocalcemia,is-a,Suggest assess electrolytes
+Cerebrovascular accident,is-a,Intracranial pathology
+Electronic pacemaker artifact,is-a,Electronic pacemaker
+Electronic pacemaker spike,is-a,Electronic pacemaker artifact
+Fusion complex,is-a,Electronic pacemaker
+Pacing,is-a,Electronic pacemaker
+Demand pacing,is-a,Pacing
+Ventricular pacing,is-a,Pacing
+Atrial pacing,is-a,Pacing
+Dual-chamber pacing,is-a,Ventricular pacing
+Dual-chamber pacing,is-a,Atrial pacing
+Atrioventricular sequential pacing,is-a,Dual-chamber pacing
+Sensing,is-a,Electronic pacemaker
+Atrial sensing,is-a,Sensing
+Electronic pacemaker malfunction,is-a,Electronic pacemaker
+Ineffective stimuli,is-a,Electronic pacemaker malfunction
+Loss of sensing,is-a,Electronic pacemaker malfunction
+Loss of capture,is-a,Electronic pacemaker malfunction

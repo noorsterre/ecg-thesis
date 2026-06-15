@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Atrioventricular",
+    "split": [
+      "Atrial",
+      "Ventricular"
+    ],
+    "patterns": [
+      "atrioventricular"
+    ]
+  }
+]
